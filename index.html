@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Form Example</title>
+    <title>contact us</title>
     <style>
 	    *{
 	box-sizing: border-box;
@@ -56,10 +56,10 @@ textarea{
 	<div class="container">
 		<form method="post" action="https://script.google.com/macros/s/AKfycbwyA-8w-DNTb-xSRBwIKYueRqEbDSl3XxnsnlsL9zKMK7CbNDrHd4Ih6Dp8ajiqaAbslA/exec" name="contact-form">
 			<h4>Contact Us</h4>
-			<input type="text" name="your-name" placeholder="Name">
-			<input type="text" name="your-number" placeholder="Number">
-			<input type="email" name="your-email" placeholder="Email">
-			<textarea name="message" rows="7" placeholder="Your Message"></textarea>
+			<input type="text" name="your-name" placeholder="Name" required>
+			<input type="text" name="your-number" placeholder="Number" required>
+			<input type="email" name="your-email" placeholder="Email" required>
+			<textarea name="message" rows="7" placeholder="Your Message" required></textarea>
 			<input type="submit" value="Submit" id="submit">
 		</form>
 	</div>
